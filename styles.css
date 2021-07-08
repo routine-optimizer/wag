@@ -15,7 +15,8 @@ h1 {
 
 h2 {
     color: black;
-    font-family: "Open Sans", "PT Sans", Times
+    font-family: "Open Sans", "PT Sans", Times;
+    text-align: center
 }
 
 li {
@@ -23,6 +24,8 @@ li {
     font-family: "Roboto", "PT Sans", Times;
     float: left
 }
+
+ul.topnav li.right {float: right;}
 
 ul {
   list-style-type: none;
@@ -57,7 +60,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to grey on hover */
 li a:hover {
-  background-color: indianred;
+  background-color: grey;
 }
